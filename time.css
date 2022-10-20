@@ -6,9 +6,6 @@ body{
 html{
     scroll-behavior: smooth;
 }
-header{
-    color: aliceblue;
-}
 h1{
-    font-size: larger;
+    color: aliceblue;
 }
