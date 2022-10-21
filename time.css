@@ -9,3 +9,9 @@ html{
 h1{
     color: aliceblue;
 }
+#precambrian{
+    background-color: rgba(165, 42, 42, 0.477);
+}
+#phanerozoic{
+    background-color: rgba(0, 0, 255, 0.418);
+}
