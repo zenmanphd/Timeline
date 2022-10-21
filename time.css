@@ -12,6 +12,10 @@ h1{
 h2{
     color:aliceblue;
 }
+h1 ,h2, a {
+    font-family: fantasy;
+
+}
 #precambrian{
     background-color: rgba(165, 42, 42, 0.477);
 }
