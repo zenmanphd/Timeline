@@ -7,11 +7,14 @@ html{
     scroll-behavior: smooth;
 }
 
-h1 ,h2, a, p {
+h1 ,h2, a {
     font-family: Rockwell, Verdana, Geneva, Tahoma, sans-serif;
     color: aliceblue;
 }
-
+p {
+    font-family: Rockwell, Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+} 
 #precambrian{
     background-color: rgba(165, 42, 42, 0.477);
 }
