@@ -17,6 +17,7 @@ p {
 } 
 #precambrian{
     background-color: rgba(165, 42, 42, 0.477);
+    width: 500px;
 }
 #phanerozoic{
     background-color: rgba(109, 109, 249, 0.418);
