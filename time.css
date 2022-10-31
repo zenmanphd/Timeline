@@ -14,6 +14,11 @@ h1 ,h2, a {
 p {
     font-family: Rockwell, Verdana, Geneva, Tahoma, sans-serif;
     color: aliceblue;
+}
+#about {
+    width: 750px;
+    padding: 20px;
+    margin: auto;
 } 
 #precambrian{
     background-color: rgba(165, 42, 42, 0.477);
