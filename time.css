@@ -15,6 +15,11 @@ p {
     font-family: Rockwell, Verdana, Geneva, Tahoma, sans-serif;
     color: aliceblue;
 }
+button {
+    color: azure;
+    background-color: transparent;
+    border: 2px solid azure;
+}
 #about {
     width: 750px;
     padding: 20px;
