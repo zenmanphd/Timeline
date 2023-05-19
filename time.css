@@ -18,7 +18,12 @@ p {
 button {
     color: azure;
     background-color: transparent;
-    border: 2px solid azure;
+    border: 1px solid azure;
+}
+button:hover {
+    color: aqua;
+    border: 2px solid aqua;
+    border-radius: 8px;
 }
 #about {
     width: 750px;
