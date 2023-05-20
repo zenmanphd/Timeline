@@ -21,9 +21,10 @@ button {
     border: 1px solid azure;
 }
 button:hover {
+    font-size: larger;
     color: aqua;
-    border: 2px solid aqua;
-    border-radius: 8px;
+    border: 1px solid aqua;
+    border-radius: 4px;
 }
 #about {
     width: 750px;
