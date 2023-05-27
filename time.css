@@ -2,7 +2,7 @@ body{
     background-image: url('earth3.jpg');
     background-size: cover;
     background-attachment: fixed;
- animation: transitionIn 850ms;
+ animation: transitionIn 950ms;
 }
 @keyframes transitionIn {
     from {
