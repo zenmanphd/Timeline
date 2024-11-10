@@ -61,19 +61,17 @@ img{
     text-align: center;
 }
 .accordion {
-    background-color: #eee;
+    background-color: transparent;
     color: #444;
-    cursor: pointer;
     padding: 18px;
     width: 100%;
-    text-align: left;
     border: none;
     outline: none;
     transition: 0.4s;
   }
   .panel {
     padding: 0 18px;
-    background-color: white;
+    background-color: transparent;
     display: none;
     overflow: hidden;
   }
