@@ -75,3 +75,7 @@ img{
     display: none;
     overflow: hidden;
   }
+  .active, .accordion:hover {
+    background-color: #ccc; 
+  }
+  
