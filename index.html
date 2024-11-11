@@ -14,7 +14,8 @@
     <p><i>Web design by Andre' Bailey - writer, philosopher, cage fighter...</i></p>
     
 </header>
-<div id="about">
+<main>
+<section id="about">
     <h2>About Timeline</h2>
     <p align="justify">Let’s be honest, when you think about geological timelines do you picture dinosaurs grazing in an ancient valley with 
         giant volcanoes erupting in the background? Do you picture Cavemen in deer-skinned onesies, hurling Spears at wooly 
@@ -34,15 +35,14 @@
     <br>
     <a href="#phanerozoic">Phanerozoic</a>
 </nav>
-</div>
+</section>
 <br>
 <br>
-<div id="precambrian">
+<section id="precambrian">
     <h1>The Precambrian Supereon  <em>4.54 bya - 541 mya</em></h1>
     <br>
     <h2>Hadean <em>4.54 bya</em></h2>
-    <button class="accordian">Click me!</button>
-    <div class="panel">
+    <article>
         <p align="justify">Our time traveling stroll down memory lane begins in a pretty rough place, the newly formed Earth. At this point in 
             time the surface of our planet was a molten, hot hell. So, we refer to this time as the Hadean after the molten, 
             hot hell of Greek mythology (Hades). Our side of the cosmos was still blowing off some steam from the busy work of 
@@ -78,11 +78,10 @@
         <br>
         <button onclick="playAudio1()" type="button">Tell me a story</button>
             <audio id="hadean"><source src="hadean.MP3" type="audio/mpeg" style="display:none;">tell me a story</audio>
-    </div>
+    </article>
     <br>
     <h2>Archean <em>4.0 bya</em></h2>
-    <button class="accordian">Click me!</button>
-    <div class="panel">
+    <article>
         <p align="justify">The next major eon kicks off about 4 billion years ago, but of course life on Earth doesn’t really flourish, or at the very 
             least start to appear in the fossil record until roughly 3.8 billion years ago.  This is largely because back in the Hadean 
             the Earth kept getting tag-teamed by asteroids every other Tuesday leaving a superheated surface from all of that kinetic energy. 
@@ -102,11 +101,10 @@
             <button onclick="playAudio2()" type="button">Tell me a story</button>
             
             <audio id="archean"><source src="archean.MP3" type="audio/mpeg" style="display:none;">tell me a story</audio>
-    </div>
+        </article>
     <br>
     <h2>Proterozoic <em>2.5 bya</em></h2>
-    <button class="accordian">Click me!</button>
-    <div class="panel">
+    <article>
         <p>I have to warn you that this eon can tell an epic story all on its own. The earth at this point was a pretty strange and unfamiliar place. From space the oceans 
             would be green from iron deposits. The seas and shallows would be filled with life in the form of slimy, compact layers of single-celled bacterial colonies; 
             countless trillions of microbes living and dying to leave behind spent mineral remains of rust-colored stromatolites (ancient rocks formed from lithified microbe 
@@ -187,15 +185,14 @@ Let’s just say that when you’re an ancient Bacterium whose entire existence 
              <button onclick="playAudio3()" type="button">Tell me a story</button>
              
              <audio id="proterozoic"><source src="REC004.MP3" type="audio/mpeg" style="display:none;">tell me a story</audio>    
-    </div>
-</div>
+    </article>
+</section>
 <br>
 <br>
-<div id="phanerozoic">
+<section id="phanerozoic">
     <h1>The Phanerozoic Explosion of Life <em>541 mya - Today</em></h1>
     <br>
-    <button class="accordian">Click me!</button>
-    <div id="paleo" class="panel">
+    <article id="paleo">
         <h2>Paleozoic <em>541 - 252 mya</em></h2>
         <p>Once life “found a way” to utilize oxygen, as opposed to dying off because of it, the rate and diversity of evolution took off at break-neck speed. We (scientists) refer to 
         this time as the “Cambrian Explosion.” Remember that everything that happened before this point was referred to generally as the Precambrian. It was a biological renaissance for 
@@ -219,23 +216,21 @@ Let’s just say that when you’re an ancient Bacterium whose entire existence 
         <br>
         <button onclick="playAudio4()" type="button">Tell me a story</button> 
 
-        <audio id="phanero"><source src="phan.MP3" type="audio/mpeg" style="display:none;">tell me a story</audio>
-
-    </div>
+        <audio id="phanerozoic"><source src="phan.MP3" type="audio/mpeg" style="display:none;">tell me a story</audio>
+        
+    </article>
     <br>
     <h2>Mesozoic <em>252 - 66 mya</em></h2>
-    <button class="accordian">Click me!</button>
-    <div id="meso" class="panel">
+    <article id="meso">
         <p></p>
-    </div>
+    </article>
     <br>
     <h2>Cenozoic <em>66 mya - present</em></h2>
-    <button class="accordian">Click me!</button>
-    <div id="ceno" class="panel">
+    <article id="ceno">
         <p></p>
-    </div>
-  </div>
-</div>    
+    </article>
+</section>
+</main>    
 <script>
     const x = document.getElementById("hadean");
     function playAudio1(){
@@ -249,24 +244,10 @@ Let’s just say that when you’re an ancient Bacterium whose entire existence 
     function playAudio3(){
       z.play();
     }
-    const p = document.getElementById("phanero");
+    const p = document.getElementById("phanerozoic");
     function playAudio4(){
       p.play();  
     }
-    const acc = document.getElementsByClassName("accordion");
-let i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    const panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
-    } else {
-      panel.style.display = "block";
-    }
-  });
-}
 
   </script>
 </body>
