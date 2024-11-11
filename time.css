@@ -60,22 +60,3 @@ button:hover {
 img{
     text-align: center;
 }
-.accordion {
-    background-color: transparent;
-    color: #444;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-  }
-  .panel {
-    padding: 0 18px;
-    background-color: transparent;
-    display: none;
-    overflow: hidden;
-  }
-  .active, .accordion:hover {
-    background-color: #ccc; 
-  }
-  
