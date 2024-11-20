@@ -60,10 +60,10 @@ button:hover {
 img{
     text-align: center;
 }
-.accordian li{
+.accordion li{
     list-style: none;
 }
-.accordian li label{
+.accordion li label{
     cursor: pointer;
 }
 label::before{
@@ -72,4 +72,7 @@ label::before{
 }
 input[type="radio"]{
     display: none;
+}
+.accordion input["radio"]:checked + label + .content{
+    
 }
