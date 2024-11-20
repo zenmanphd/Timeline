@@ -60,3 +60,16 @@ button:hover {
 img{
     text-align: center;
 }
+.accordian li{
+    list-style: none;
+}
+.accordian li label{
+    cursor: pointer;
+}
+label::before{
+    content: '+';
+    margin-right: 10px;
+}
+input[type="radio"]{
+    display: none;
+}
